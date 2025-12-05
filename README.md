@@ -49,10 +49,10 @@ El día de hoy en mi clase de Javascript vi el tema de Programación Orientada a
     ➡️ Piensa en ellos como “consejos universales de skincare” que funcionan sin importar qué producto estés usando.
 
     Ejemplo típico:
-    ![alt text](image.png)
+    ![image](content/image.png)
 
     Y se usan así:
-    ![alt text](image-1.png)
+    ![image](content/image-1.png)
 
     💡 ¿Por qué existen los métodos de clase?
 
@@ -69,9 +69,9 @@ El día de hoy en mi clase de Javascript vi el tema de Programación Orientada a
     Métodos de clase (estáticos) = reglas generales del skincare.
 
     Ejemplo:
-    ![alt text](image-2.png)
+    ![image](content/image-2.png)
     Uso:
-    ![alt text](image-3.png)
+    ![image](content/image-3.png)
 
     💥 RETO: solución creativa que ROMPE la práctica estándar del método estático
 
@@ -90,7 +90,7 @@ El día de hoy en mi clase de Javascript vi el tema de Programación Orientada a
 
 🧪 Código innovador basado en skincare:
 “DynamicClassMethods”: métodos de clase creados automáticamente según el tipo de piel
-![alt text](image-4.png)
+![image](content/image-4.png)
 
 #### -----> PROMPT #2
 Necesito que evalúes el código. Identifica legibilidad, funcionamiento, posibles bugs, buenas prácticas y sugiéreme al menos dos optimizaciones para mejorar la eficiencia o legibilidad. Implementa y documenta estos cambios.
@@ -135,8 +135,8 @@ Optimización 3 (extra) — Verificar antes de sobrescribir un método
 Buena práctica para evitar errores silenciosos.
 
 🔧 3. Código optimizado + documentado
-![alt text](image-5.png)
-![alt text](image-6.png)
+![image](content/image-5.png)
+![image](content/image-6.png)
 
 ✔ Cambio 1 — Tabla de configuraciones
 
@@ -144,18 +144,18 @@ Antes:
 un switch poco escalable
 
 Ahora:
-![alt text](image-7.png)
+![image](content/image-7.png)
 
 ✔ Cambio 2 — Normalización del tipo de piel
 Evita crear métodos como rutina_ Seca.
-![alt text](image-8.png)
+![image](content/mage-8.png)
 
 ✔ Cambio 3 — Protección contra sobrescritura accidental
-![alt text](image-9.png)
+![image](content/image-9.png)
 Evita errores silenciosos.
 
 
 ## Fase 4: Presentación y colaboración
 Usa la IA Generativa (prompts de imagen, diagramas de código como Mermaid/Graphviz) para crear un esquema visual, diagrama o infografía que explique la parte más compleja o inusual de tu solución a un público no técnico.
 
-![alt text](sources/image-10.png)
+![image](content/image-10.png)
