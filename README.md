@@ -15,23 +15,22 @@ Objetivo: Demostrar la capacidad de aplicar el pensamiento creativo —aumentado
 El día de hoy en mi clase de Javascript vi el tema de Programación Orientada a Objetos (POO) tuve muchas dudas en varios subtemas y más en específico cuando vimos "Métodos de clase", podrías generar una explicación del tema con ejemplos fáciles de entender y relacionarlos con un tema que disfruto que son las rutinas de skincare. Necesito que me sugieras una solución que rompa con la práctica estándar del método estático, utilizando el skincare. Crea un código basado en este enfoque.
 
 #### RESPUESTA PROMPT #1
- 🧴 ¿Qué es la Programación Orientada a Objetos (POO)?
+🧴 ¿Qué es la Programación Orientada a Objetos (POO)?
 
-    POO te permite organizar tu código como si estuvieras creando “objetos” del mundo real.
-    Ejemplo: en skincare tienes productos, rutinas, tipos de piel, etc.
+POO te permite organizar tu código como si estuvieras creando “objetos” del mundo real. Ejemplo: en skincare tienes productos, rutinas, tipos de piel, etc.
 
-    # 🧴 Programación Orientada a Objetos (POO) en JavaScript  
-    ## Explicación con skincare + métodos de clase + solución creativa
+# 🧴 Programación Orientada a Objetos (POO) en JavaScript  
+## Explicación con skincare + métodos de clase + solución creativa
 
-    En JavaScript, la **Programación Orientada a Objetos (POO)** te permite crear estructuras basadas en objetos del mundo real.  
-    En este ejemplo usaremos **skincare** como temática para entender métodos normales, métodos de clase y una solución que rompe el estándar.
+En JavaScript, la **Programación Orientada a Objetos (POO)** te permite crear estructuras basadas en objetos del mundo real.  
+En este ejemplo usaremos **skincare** como temática para entender métodos normales, métodos de clase y una solución que rompe el estándar.
 
-    ---
+---
 
-    # 🧼 ¿Qué es una clase?
+# 🧼 ¿Qué es una clase?
 
-    Una clase es una **plantilla** para crear objetos.  
-    Piensa en ella como el “molde” para crear productos de skincare.
+Una clase es una **plantilla** para crear objetos.  
+Piensa en ella como el “molde” para crear productos de skincare.
 
     ```js
     class ProductoSkincare {
@@ -43,48 +42,48 @@ El día de hoy en mi clase de Javascript vi el tema de Programación Orientada a
     }
     ```
 
-    🌟 ¿Qué son los métodos de clase?
+🌟 ¿Qué son los métodos de clase?
 
-    Los métodos de clase (estáticos, con static) NO necesitan crear un objeto para usarse.
-    ➡️ Piensa en ellos como “consejos universales de skincare” que funcionan sin importar qué producto estés usando.
+Los métodos de clase (estáticos, con static) NO necesitan crear un objeto para usarse.
+➡️ Piensa en ellos como “consejos universales de skincare” que funcionan sin importar qué producto estés usando.
 
-    Ejemplo típico:
-    ![image](content/image.png)
+Ejemplo típico:
+![image](content/image.png)
 
-    Y se usan así:
-    ![image](content/image-1.png)
+Y se usan así:
+![image](content/image-1.png)
 
-    💡 ¿Por qué existen los métodos de clase?
+💡 ¿Por qué existen los métodos de clase?
 
-    Porque algunas funciones **no dependen de un producto en sí**, sino del sistema general.
-    Por ejemplo: una regla, una validación, una conversión.
+Porque algunas funciones **no dependen de un producto en sí**, sino del sistema general.
+Por ejemplo: una regla, una validación, una conversión.
 
-    🧴✨ Ahora sí: explicación usando skincare
-    🎀 Analogía:
+🧴✨ Ahora sí: explicación usando skincare
+🎀 Analogía:
 
-    Objetos = productos de skincare.
+Objetos = productos de skincare.
+Métodos normales = instrucciones específicas del producto.
+Métodos de clase (estáticos) = reglas generales del skincare.
 
-    Métodos normales = instrucciones específicas del producto.
+Ejemplo:
+![image](content/image-2.png)
+Uso:
+![image](content/image-3.png)
 
-    Métodos de clase (estáticos) = reglas generales del skincare.
+💥 RETO: solución creativa que ROMPE la práctica estándar del método estático
 
-    Ejemplo:
-    ![image](content/image-2.png)
-    Uso:
-    ![image](content/image-3.png)
+La práctica tradicional:
+👉 Los métodos estáticos se usan como utilidades generalistas.
 
-    💥 RETO: solución creativa que ROMPE la práctica estándar del método estático
+Solución creativa y más avanzada:
+👉 Usar una “clase orquestadora de rutinas” que genera métodos de clase dinámicamente dependiendo del tipo de piel.
 
-    La práctica tradicional:
-    👉 Los métodos estáticos se usan como utilidades generalistas.
+Es decir:
+✨ En vez de tener un método estático fijo, generamos métodos de clase personalizados en tiempo de ejecución.
 
-    Solución creativa y más avanzada:
-    👉 Usar una “clase orquestadora de rutinas” que genera métodos de clase dinámicamente dependiendo del tipo de piel.
+Esto NO es lo típico que se enseña.
 
-    Es decir:
-    ✨ En vez de tener un método estático fijo, generamos métodos de clase personalizados en tiempo de ejecución.
 
-    Esto NO es lo típico que se enseña.
 ## Fase 3: Revisión y refinamiento/evaluación
 *Utiliza la IA para evaluar tu código de la fase 2. Pídele que identifique legibilidad, funcionamiento, posibles bugs, buenas prácticas y sugiera al menos dos optimizaciones para mejorar la eficiencia o legibilidad. Implementa y documenta estos cambios.*
 
